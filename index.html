@@ -11,11 +11,11 @@
   <link href='http://fonts.googleapis.com/css?family=Euphoria+Script&text=theruls' rel='stylesheet' type='text/css'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-
     html, body {
       margin: 0;
       padding: 0;
     }
+
     body {
       border-top: solid 20px #981c21;
       font: 16px/1.2em normal "Lato", "Helvetica Neue", "Arial", sans-serif;
@@ -23,11 +23,13 @@
       color: #fff;
       background: #d73939;
     }
+
     h1 {
       margin: 1em 0 0;
       font-size: 3em;
       text-shadow: -3px 7px rgba(0,0,0,0.2);
     }
+
     h2 {
       font: 2em normal "Euphoria Script";
       margin: 1.2em 0 -0.2em;
@@ -45,56 +47,61 @@
       list-style-position: inside;
       text-indent: -1em;
     }
-      ol.rules li {
-        text-align:left;
-        line-height: 1.2em;
-        margin-bottom:0.5em;
-      }
+
+    ol.rules li {
+      text-align:left;
+      line-height: 1.2em;
+      margin-bottom:0.5em;
+    }
 
     ul {
       margin:0 2em;
       padding: 0.1em 0;
       background: #d73939 url('./stripe.gif') 50% repeat-y;
     }
-      ul li {
-        margin: 6em 0;
-        padding: 0;
-        list-style: none;
-        position: relative;
-        z-index: 1;
-      }
-      ul li p {
-        margin: 0.5em;
-        line-height: 1.2em;
-      }
+
+    ul li {
+      margin: 6em 0;
+      padding: 0;
+      list-style: none;
+      position: relative;
+      z-index: 1;
+    }
+
+    ul li p {
+      margin: 0.5em;
+      line-height: 1.2em;
+    }
 
     a:link,
     a:visited {
-      color:#ff9ea9;
       color:#ff8f8c;
       text-decoration: none;
       padding-bottom: 0.3em;
       border-bottom: solid 1px #ff8f8c;
     }
+
     a:hover,
     a:focus {
       color:#fff;
     }
-      a.photo img {
-        background-color: #d73939;
-      }
+
+    a.photo img {
+      background-color: #d73939;
+    }
 
     a.photo {
       border-bottom-style: none;
       display: inline-block;
     }
+
     a.photo:hover img {
       background-color: #981c21;
     }
 
-		.date-wrapper {
-			margin: 0 0 20px;
-		}
+    .date-wrapper {
+      margin: 0 0 20px;
+    }
 
     time {
       background: #fff;
@@ -106,9 +113,10 @@
     .drop {
       font-size: 1.4em;
     }
-      .drop span {
-        color: #8b191f;
-      }
+
+    .drop span {
+      color: #8b191f;
+    }
 
     img {
       width: 100px;
@@ -127,124 +135,127 @@
       font-size: 0.9em;
       color:#ccc;
     }
-      footer a:link,
-      footer a:visited {
-        color: #981c21;
-        border-color: #981c21;
-      }
-      footer a:hover,
-      footer a:focus {
-        color: #fff;
-        border-color: #fff;
-      }
 
-			.ribbon-wrapper {
-				-webkit-transition: -webkit-transform .3s ease-out;
-			}
+    footer a:link,
+    footer a:visited {
+      color: #981c21;
+      border-color: #981c21;
+    }
 
-			.ribbon-wrapper > span {
-				 width: 100px;
-				 position: relative;
-				 display: block;
-				 background: white;
-				 color: #d73939;
-				 -webkit-box-sizing: border-box;
-				 min-width: 160px;
-				 height: 40px;
-				 line-height: 40px;
-				 -webkit-transform-style: preserve-3d;
-				 margin: -5px auto 10px;
-			}
+    footer a:hover,
+    footer a:focus {
+      color: #fff;
+      border-color: #fff;
+    }
 
-			.ribbon-wrapper > span:before,
-			.ribbon-wrapper > span:after {
-				 content: "";
-				 position: absolute;
-				 display: block;
-				 top: -10px;
-				 border: 20px solid #F5F5F5;
-				 z-index: -1;
-				 -webkit-transform: translateZ(-1px);
-			}
+    .ribbon-wrapper {
+      -webkit-transition: -webkit-transform .3s ease-out;
+    }
 
-			.ribbon-wrapper > span:before {
-			 left: -30px;
-			 border-right-width: 20px;
-			 border-left-color: transparent;
-			}
+    .ribbon-wrapper > span {
+      width: 100px;
+      position: relative;
+      display: block;
+      background: white;
+      color: #d73939;
+      -webkit-box-sizing: border-box;
+      min-width: 160px;
+      height: 40px;
+      line-height: 40px;
+      -webkit-transform-style: preserve-3d;
+      margin: -5px auto 10px;
+    }
 
-			.ribbon-wrapper > span:after {
-			 right: -30px;
-			 border-left-width: 20px;
-			 border-right-color: transparent;
-			}
+    .ribbon-wrapper > span:before,
+    .ribbon-wrapper > span:after {
+      content: "";
+      position: absolute;
+      display: block;
+      top: -10px;
+      border: 20px solid #F5F5F5;
+      z-index: -1;
+      -webkit-transform: translateZ(-1px);
+    }
 
-			.ribbon-wrapper > span span:before,
-			.ribbon-wrapper > span span:after {
-			 content: "";
-			 position: absolute;
-			 display: block;
-			 border-style: solid;
-			 border-color: transparent transparent gray transparent;
-			 top: -10px;
-			}
-			.ribbon-wrapper > span span:before {
-			 left: 0;
-			 border-width: 0 0 10px 10px;
-			}
-			.ribbon-wrapper > span span:after {
-			 right: 0;
-			 border-width: 0 10px 10px 0;
-			}
+    .ribbon-wrapper > span:before {
+      left: -30px;
+      border-right-width: 20px;
+      border-left-color: transparent;
+    }
 
-			.not-touch .photo:hover ~ .ribbon-wrapper {
-				-webkit-transform: translateY(-1.5em);
-			}
+    .ribbon-wrapper > span:after {
+      right: -30px;
+      border-left-width: 20px;
+      border-right-color: transparent;
+    }
 
+    .ribbon-wrapper > span span:before,
+    .ribbon-wrapper > span span:after {
+      content: "";
+      position: absolute;
+      display: block;
+      border-style: solid;
+      border-color: transparent transparent gray transparent;
+      top: -10px;
+    }
 
+    .ribbon-wrapper > span span:before {
+      left: 0;
+      border-width: 0 0 10px 10px;
+    }
 
-			.come-in {
-			  -webkit-transform: translateY(150px);
-			  				transform: translateY(150px);
-			  -webkit-animation: come-in 0.8s ease forwards;
-			  				animation: come-in 0.8s ease forwards;
-			}
+    .ribbon-wrapper > span span:after {
+      right: 0;
+      border-width: 0 10px 10px 0;
+    }
 
-			.already-visible {
-			  -webkit-transform: translateY(0);
-			  -webkit-animation: none;
-			}
+    .not-touch .photo:hover ~ .ribbon-wrapper {
+      -webkit-transform: translateY(-1.5em);
+    }
 
-			@-webkit-keyframes come-in {
-			  to { -webkit-transform: translateY(0); }
-			}
+    .come-in {
+      -webkit-transform: translateY(150px);
+      transform: translateY(150px);
+      -webkit-animation: come-in 0.8s ease forwards;
+      animation: come-in 0.8s ease forwards;
+    }
 
-			@keyframes come-in {
-			  to { -webkit-transform: translateY(0); }
-			}
+    .already-visible {
+      -webkit-transform: translateY(0);
+      -webkit-animation: none;
+    }
 
+    @-webkit-keyframes come-in {
+      to { -webkit-transform: translateY(0); }
+    }
+
+    @keyframes come-in {
+      to { -webkit-transform: translateY(0); }
+    }
 
     @media all and (min-width: 600px) {
+
       h1 {
         font-size: 6em;
         text-shadow: -3px 10px rgba(0,0,0,0.2);
       }
+
       h2 {
         font-size: 2.8em;
         margin: 1.4em 0 -0.2em;
       }
+
       ol.rules {
         font-size: 0.9em;
         width: 310px;
       }
 
-			.ribbon {
-				font-size: 1em;
-				width: 150px;
-			}
+      .ribbon {
+        font-size: 1em;
+        width: 150px;
+      }
 
     }
-
   </style>
 </head>
 <body>
@@ -264,12 +275,12 @@
         <img src="{% if drop.instagramUrl %}{{ drop.instagramUrl }}/media/?size=t{% else %}bottle.png{% endif %}" />
       </a>
       {% if drop.award %}
-    	<div class="ribbon-wrapper">
-	    	<span>
-	    		<span>{{drop.award}}</span>
-	    	</span>
-	    </div>
-			{% endif %}
+      <div class="ribbon-wrapper">
+        <span>
+          <span>{{drop.award}}</span>
+        </span>
+      </div>
+      {% endif %}
       <p class="drop">{{ drop.beer }} <span>from</span> {{ drop.brewery }}</p>
       <p class="description">{{ drop.description }}</p>
       <p>Brought to the club by <a class="member" href="http://twitter.com/{{ drop.member }}">@{{ drop.member }}</a></p>
