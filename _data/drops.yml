@@ -1,4 +1,32 @@
 - date: 2013-02-05 17:30:00 +0000
+  beer: Adriaen Brouwer Dark Gold
+  brewery: "Oudenaarde, Belgium"
+  member: lucian stroie
+  description: "Licorice, overripe fruits, yeast, hint of alcohol. Taste is cocoa, fruits, malt."
+  instagramUrl: http://instagram.com/p/yt9T63vDPW
+
+- date: 2013-02-05 17:30:00 +0000
+  beer: Skia
+  brewery: "Redentor, Italy"
+  member: arosca
+  description: "Pretty good italian ale"
+  instagramUrl: http://instagram.com/p/yt9qJsPDPy
+
+- date: 2013-02-05 17:30:00 +0000
+  beer: Roman Blanche Des Flandres
+  brewery: "Oudenaarde, Belgium"
+  member: domnu_mircea
+  description: "Traditional witbier. Nothing special about it."
+  instagramUrl: http://instagram.com/p/yt9khAPDPr
+
+- date: 2013-02-05 17:30:00 +0000
+  beer: Wittekerke
+  brewery: "Brouwerij De Brabandere, Belgium"
+  member: domnu_mircea
+  description: "Light aromas and flavors of wheat and citrus."
+  instagramUrl: http://instagram.com/p/yt9cFqvDPj
+
+- date: 2013-02-05 17:30:00 +0000
   beer: Roman Mater Biere Blanche Wit
   brewery: "Brouwerij Roman, Oudenaarde, Belgium"
   member: domnu_mircea
