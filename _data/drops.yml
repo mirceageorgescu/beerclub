@@ -1,4 +1,12 @@
 - date: 2015-03-06 17:30:00 +0000
+  beer:  Westmalle Trappist Dubbel
+  brewery: "Brouwerij der Trappisten van Westmalle"
+  member: domnu_mircea
+  description: "Rich and complex, malty and fruity with a bitter finish."
+  instagramUrl: http://instagram.com/p/z4_xQKvDBs
+  award: Dubbel Dubble Double
+
+- date: 2015-03-06 17:30:00 +0000
   beer: Chouffe Houblon Dobbelen IPA Tripel
   brewery: "Brasserie d’Achouffe (Moortgat)"
   member: domnu_mircea
