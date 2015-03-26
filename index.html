@@ -25,7 +25,7 @@
     }
 
     h1 {
-      margin: 1em 0 0;
+      margin: 1em 0 .5em;
       font-size: 3em;
       text-shadow: -3px 7px rgba(0,0,0,0.2);
     }
@@ -71,6 +71,17 @@
     ul li p {
       margin: 0.5em;
       line-height: 1.2em;
+    }
+
+    .chapters {
+      list-style: none;
+      background: none;
+      margin: 1 0px auto 10px;
+    }
+
+    .chapters > li {
+      display: inline;
+      margin: 0 1em;
     }
 
     a:link,
@@ -263,6 +274,10 @@
   <header>
     <h1>#BEERCLUB</h1>
     <h2>rules</h2>
+    <ul class="chapters">
+      <li><a href="http://beerclub.hawksworx.com">London chapter</a></li>
+      <li>Bucharest chapter</li>
+    </ul>
     <ol class="rules">
       <li>You do not talk about beer club.</li>
       <li>You can talk about beer club if you like. It's fine.</li>
