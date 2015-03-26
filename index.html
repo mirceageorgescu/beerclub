@@ -24,6 +24,15 @@
       background: #F0A800;
     }
 
+    .pint {
+    	background: #F0A800;
+    	padding: 10px 0;
+    	border-radius: 15px;
+    	box-shadow: 0 10px 0 0 #ba7802;
+    	max-width: 640px;
+    	margin: 0 auto;
+    }
+
     h1 {
       margin: 1em 0 .5em;
       font-size: 3em;
@@ -175,7 +184,7 @@
       height: 40px;
       line-height: 40px;
       -webkit-transform-style: preserve-3d;
-      margin: -5px auto 10px;
+      margin: -5px auto 0;
     }
 
     .ribbon-wrapper > span:before,
@@ -297,14 +306,16 @@
         </span>
       </div>
       {% endif %}
-      <p class="drop">{{ drop.beer }} <span>from</span> {{ drop.brewery }}</p>
-      <p class="description">{{ drop.description }}</p>
-      <p>Brought to the club by <a class="member" href="http://twitter.com/{{ drop.member }}">@{{ drop.member }}</a></p>
+      <div class="pint">
+      	<p class="drop">{{ drop.beer }} <span>from</span> {{ drop.brewery }}</p>
+      	<p class="description">{{ drop.description }}</p>
+      	<p>Brought to the club by <a class="member" href="http://twitter.com/{{ drop.member }}">@{{ drop.member }}</a></p>
+      </div>
     </li>
   {% endfor %}
   </ul>
   <footer>
-    <p>#beerclub takes place each friday afternoon at <a href="http://rga.com/about/locations/bucharest/">R/GA Bucharest</a></p>
+    <p>#beerclub takes place each Friday afternoon at <a href="http://rga.com/about/locations/bucharest/">R/GA Bucharest</a></p>
     <p>Update this site on <a href="https://github.com/mirceageorgescu/beerclub/blob/gh-pages/_data/drops.yml">Github</a></p>
   </footer>
 
