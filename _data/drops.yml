@@ -1,4 +1,12 @@
 - date: 2015-04-02 15:30:00 +0000
+  beer:  Petrus Gouden Tripel
+  brewery: "De Brabandere"
+  member: viorel_sfetea
+  description: "A taste of bitterness and caramel"
+  instagramUrl: https://instagram.com/p/0-N6krNpS4/
+  award: Sweet belgian stuff
+
+- date: 2015-04-02 15:30:00 +0000
   beer:  Hite
   brewery: "Hite Brewery Company"
   member: viorel_sfetea
