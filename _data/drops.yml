@@ -3,7 +3,7 @@
   brewery: "De Brabandere"
   member: viorel_sfetea
   description: "A taste of bitterness and caramel"
-  instagramUrl: https://instagram.com/p/0-N6krNpS4/
+  instagramUrl: http://instagram.com/p/0-N6krNpS4/
   award: Sweet belgian stuff
 
 - date: 2015-04-02 15:30:00 +0000
@@ -11,7 +11,7 @@
   brewery: "Hite Brewery Company"
   member: viorel_sfetea
   description: "Sweet and golden, with thin body and minimal head"
-  instagramUrl: https://instagram.com/p/0-Nw13NpSe/
+  instagramUrl: http://instagram.com/p/0-Nw13NpSe/
   award: We drank the cheapest beer in the world and we didn't die
 
 - date: 2015-03-06 17:30:00 +0000
